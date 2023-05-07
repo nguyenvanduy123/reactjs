@@ -1,0 +1,16 @@
+ @import "../../../Common.scss";
+ #breacrumb {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     height: 100%;
+     .icon_ {
+         width: 16px;
+         height: 16px;
+         margin: 0 5px;
+     }
+     .item_ {
+         display: flex;
+         align-items: center;
+     }
+ }

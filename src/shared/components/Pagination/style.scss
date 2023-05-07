@@ -1,0 +1,41 @@
+  @import "../../../Common.scss";
+  #pagination {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      height: 40px;
+      position: relative;
+      background-color: $white;
+      padding: 20px 30px;
+      .chose_row_show {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-right: 20px;
+          ._select_input {
+              cursor: pointer;
+          }
+          input {
+              cursor: pointer;
+          }
+      }
+      .pagination_wrrap {
+          display: flex;
+          .item {
+              width: 32px;
+              height: 32px;
+              /* Neutral/4 (Line) */
+              border: 1px solid $gray-light-400;
+              border-radius: 3px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-right: 10px;
+          }
+          .item.active {
+              background-color: $success-color;
+              color: $white;
+          }
+      }
+  }

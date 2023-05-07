@@ -1,0 +1,27 @@
+#add_supplier_container {
+    .bottom-left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 50%;
+        a,
+        button {
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    }
+    .bottom-right {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        button {
+            width: 90px;
+            height: 32px;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+    }
+}

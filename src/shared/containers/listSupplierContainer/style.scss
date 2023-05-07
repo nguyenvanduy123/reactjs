@@ -1,0 +1,51 @@
+@import "../../../Common.scss";
+.title_text {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.title2_text {
+    font-weight: bold;
+    font-size: 18px;
+    // margin-left: 10px;
+}
+
+.table_standard {
+    width: auto;
+    min-width: 100%;
+    thead {
+        background-color: $gray-light;
+        border-bottom: 1px solid $gray-light;
+        height: 38px;
+    }
+    tr {
+        border-bottom: 1px solid $gray-light-400;
+        th,
+        td {
+            padding: 10px;
+            border-color: $gray-light-400;
+            border-bottom: 1px solid $gray-light-400;
+            white-space: nowrap;
+        }
+        &:hover {
+            background-color: $background-color-hover-row;
+        }
+    }
+}
+
+.btn_action_table {
+    width: 110px;
+    button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 30px;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        &:hover {
+            background-color: $background-color-hover-button;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+  @import "../../../Common.scss";
+  #form_item_input {
+      min-height: 60px;
+      // width: 346px;
+      label {
+          display: flex;
+          font-weight: 400;
+      }
+      input {
+          width: 100%;
+          //   min-height: 32px;
+          //   /* Neutral/5 */
+          //   border: 1px solid $border-input;
+          //   border-radius: 3px;
+      }
+  }

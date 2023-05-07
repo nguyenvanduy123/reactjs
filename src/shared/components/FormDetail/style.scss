@@ -1,0 +1,69 @@
+  @import "../../../Common.scss";
+  #form_detail {
+      background: $white;
+      border-radius: 3px;
+      height: 291px;
+      padding: 20px;
+      .title_form {
+          font-weight: 600;
+          font-size: 14px;
+      }
+      .form_cus {
+          margin-top: 15px;
+          display: flex;
+          flex-wrap: wrap;
+          .item_row {
+            display: flex;
+             margin-bottom: 20px;
+            flex-direction: row;
+            width: 582px;
+            height: 20px;
+            align-items: center;
+            padding: 0px;
+            gap: 15px;
+        
+              div {
+                  display: flex;
+                  align-items: center;
+                  &:first-child {
+                    //   width: 144%;
+                    width: 150px;
+                    height: 20px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.01em;
+                    color: #707070;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                  }
+                  &:last-child {
+                    //   width: 154%;
+                    width: 364px;
+height: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+color: #333333;
+flex: none;
+order: 1;
+flex-grow: 1;
+                      .dot2 {
+                          margin-right: 5px;
+                      }
+                  }
+              }
+          }
+      }
+     
+  }

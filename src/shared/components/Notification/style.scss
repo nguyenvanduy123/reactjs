@@ -1,0 +1,111 @@
+  @import "../../../Common.scss";
+  .notification_fxxx.show {
+      display: flex;
+      position: fixed;
+      width: auto;
+      height: auto;
+      z-index: 10000;
+      right: 20px;
+      top: 55px;
+      animation: fade 0.5s linear;
+  }
+  
+  .notification_fxxx.hide {
+      animation: hide_ 0.5s linear;
+  }
+  
+  .notification_fxxx {
+      #notification {
+          display: flex;
+          justify-content: center;
+          min-width: 274px;
+          min-height: 44px;
+          background-color: $white;
+          //  border-bottom: 4px solid #3078F1;
+          /* Web/4 - Header bar WEB */
+          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03), 0px 3px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.07);
+          border-radius: 3px;
+          padding: 0 10px;
+          position: relative;
+          overflow: hidden;
+          .boder_noti {
+              position: absolute;
+              width: 100%;
+              bottom: 0;
+              left: 0;
+          }
+          //   overflow: hidden;
+          //   &::after {
+          //       content: "";
+          //       position: absolute;
+          //       width: 50%;
+          //       left: 0;
+          //       bottom: -4px;
+          //       background-color: #3078F1;
+          //       height: 100%;
+          //       z-index: -1;
+          //       border-radius: 3px;
+          //   }
+          .notification_item {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              width: 100%;
+              .icon_ {
+                  width: 16px;
+                  height: 16px;
+              }
+              div {
+                  width: 40%;
+                  display: flex;
+                  justify-content: flex-start;
+                  &:first-child {
+                      width: 15%;
+                  }
+                  &:last-child {
+                      justify-content: flex-end;
+                  }
+              }
+              .action_no {
+                  justify-content: flex-end;
+                  margin-right: 20px;
+              }
+              .action_close {
+                  position: absolute;
+                  width: auto;
+                  right: 8px;
+                  top: 8px;
+                  cursor: pointer;
+              }
+          }
+          //  .notification_item.fade {
+          //      animation: fade 0.2s linear;
+          //  }
+      }
+  }
+  
+  @keyframes fade {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  @keyframes hide_ {
+      0% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+      }
+  }
+  
+  .is_hover {
+      &:hover {
+          .content_ {
+              display: flex !important;
+          }
+      }
+  }

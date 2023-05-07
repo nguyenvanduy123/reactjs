@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg_contain {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg_cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reset_btn {
+    background-color: unset;
+    border: none;
+    outline: none;
+}
+
+.reset_input {
+    background-color: unset;
+    border: none;
+    outline: none;
+}
+
+.icon_ {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.stand_radius {
+    border-radius: 3px;
+}
+
+.stand_input {
+    border: 1px solid #ACACAC;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+}
+
+.text_placeholder {
+    color: #E3E3E3 !important;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #E3E3E3;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #E3E3E3;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #E3E3E3;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #E3E3E3;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #E3E3E3;
+}
+
+.secondary_btn {
+    background-color: #F2F2F2;
+}
+
+.success_btn {
+    background-color: #138300;
+}
+
+.warning_btn {
+    background-color: #FFCD29;
+}
+
+.danger_btn {
+    background-color: #FF3434;
+}
+
+.danger_btn_outline {
+    border: #FF3434;
+    border: 1px solid #FF3434;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.success_btn-05 {
+    background-color: #D2F2CC;
+}
+
+.text-success {
+    color: #138300;
+}
+
+.text-warning {
+    color: #FFCD29;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-secondary {
+    color: #707070;
+}
+
+.text-danger {
+    color: #FF3434;
+}
+
+.text-05 {
+    color: #707070
+}
+
+.standard_btn {
+    /* border-radius: 3px; */
+    /* padding: 6px 15px; */
+}
+
+.color_standar {
+    color: #333333;
+}
+
+.font-weigth-100 {
+    font-weight: 100;
+}
+
+.font-weigth-200 {
+    font-weight: 200;
+}
+
+.font-weigth-300 {
+    font-weight: 300;
+}
+
+.font-weigth-400 {
+    font-weight: 400;
+}
+
+.font-weigth-500 {
+    font-weight: 500;
+}
+
+.font-weigth-600 {
+    font-weight: 600;
+}
+
+.font-weigth-700 {
+    font-weight: 700;
+}
+
+.font-weigth-800 {
+    font-weight: 800;
+}
+
+.font-weigth-900 {
+    font-weight: 900;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.fle-start {
+    justify-content: flex-start;
+}
+
+.v-center {
+    align-items: center;
+}
+
+.space-beetwen {
+    justify-content: space-between;
+}

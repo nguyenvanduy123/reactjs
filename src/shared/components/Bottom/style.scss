@@ -1,0 +1,14 @@
+  @import "../../../Common.scss";
+  #bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: $white;
+      height: 40px;
+      z-index: 0;
+      padding: 0 20px;
+  }

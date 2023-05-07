@@ -1,0 +1,25 @@
+  @import "../../../Common.scss";
+  #form_item_ {
+      min-height: 60px;
+      width: 346px;
+      label {
+          display: flex;
+          font-weight: 400;
+      }
+      .form_child {
+          min-height: 32px;
+          height: 32px;
+          /* Neutral/5 */
+          border: 1px solid $border-input;
+          border-radius: 3px;
+          display: flex;
+          align-items: center;
+          padding: 5px;
+          input {
+              width: 100%;
+              height: 100%;
+              border: unset;
+              outline: unset;
+          }
+      }
+  }
